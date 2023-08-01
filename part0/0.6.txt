@@ -1,0 +1,6 @@
+Browser pushes note to the local notes array
+
+Browser then sends a copy of the new note to the server
+
+Browser -> Server
+POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa

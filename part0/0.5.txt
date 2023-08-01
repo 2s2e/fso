@@ -1,0 +1,17 @@
+Browser -> Server:
+GET https://studies.cs.helsinki.fi/exampleapp/spa
+
+Server -> Browser:
+Returns spa page
+
+Browser -> Server:
+GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+
+Server -> Browser:
+Returns spa.js file
+
+Browser -> Server:
+GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+Server -> Browser:
+Returns data.json

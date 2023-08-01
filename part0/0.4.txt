@@ -1,0 +1,34 @@
+0.4:
+
+Browser to Server:
+POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+Server appends the new note to data.json
+
+Browser to Server:
+GET https://studies.cs.helsinki.fi/exampleapp/notes
+
+Server to Browser:
+sends the notes page
+
+Browser to Server:
+GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+Server to Browser:
+sends main.css
+
+Browser to Server:
+GET https://studies.cs.helsinki.fi/exampleapp/main.js
+
+Server to Browser:
+sends main.js
+
+Browser runs JS code to fetch JSON file from server
+
+Browser to Server:
+GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+Server to Browser:
+sends data.json
+
+Browser re-renders the notes, this time with data.json
